@@ -5,14 +5,6 @@
   font-display: block;
   src: url(/fonts/Inter-roman.latin.var.woff2) format('woff2');
 }
-@font-face {
-  font-family: 'Inter var';
-  font-style: italic;
-  font-weight: 100 900;
-  font-display: block;
-  src: url(/fonts/Inter-italic.latin.var.woff2) format('woff2');
-  font-named-instance: 'Italic';
-}
 
 body {
   font-family: 'Inter var', system-ui, -apple-system, BlinkMacSystemFont,
@@ -24,6 +16,7 @@ body {
   font-variation-settings: 'wght' 450;
   font-variant: common-ligatures contextual;
   letter-spacing: -0.02em;
+  background-color: #dbe3ec;
 }
 b,
 strong,

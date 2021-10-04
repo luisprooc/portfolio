@@ -1,0 +1,10 @@
+.home-social-media {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.home-social-media a{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 1.5rem;
+}
