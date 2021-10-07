@@ -45,10 +45,6 @@ details summary {
   cursor: pointer;
 }
 
-img.next-image {
-  margin: 0;
-}
-
 .prose a {
   color: #0074de;
 }

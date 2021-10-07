@@ -1,0 +1,18 @@
+{
+  "hardSkills": [
+    "html", "css",
+    "sass", "javascript",
+    "git", "github",
+    "react", "nextjs",
+    "jest", "nodejs",
+    "express", "nestjs",
+    "mongodb", "webpack",
+    "python", "flask",
+    "docker", "typescript",
+    "strapi", "bootstrap"
+
+  ],
+  "softSkills": [
+
+  ]
+}

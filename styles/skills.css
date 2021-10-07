@@ -1,0 +1,10 @@
+.hard-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hard-skills-container {
+  flex-direction: column;
+  margin: 1.3rem;
+}

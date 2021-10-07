@@ -1,8 +1,10 @@
-import 'nextra-theme-blog/style.css'
-import Head from 'next/head'
+import 'nextra-theme-blog/style.css';
+import Head from 'next/head';
 
-import '../styles/main.css'
-import '../styles/home.css'
+import '../styles/main.css';
+import '../styles/home.css';
+
+import '../styles/skills.css';
 
 export default function Nextra({ Component, pageProps }) {
   return (

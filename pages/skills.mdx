@@ -4,24 +4,63 @@ title: Skills
 date: 2021-03-17
 ---
 import Image from 'next/image'
+import skills from '../utils/skills.json'
 
 ## Main Hard Skills
 
 
-<div classname='hard-skills'>
-  <Image
-    src='/images/skills/javascript.svg'
-    width={50}
-    height={50}
-  />
-  <Image
-    src='/images/skills/react.svg'
-    width={50}
-    height={50}
-  />
-  <Image
-    src='/images/skills/nextjs.svg'
-    width={50}
-    height={50}
-  />
+<div className='hard-skills'>
+  {
+    skills.hardSkills.map(skill => (
+      <div className='hard-skills-container'>
+        <Image
+          className='hard-skills-img'
+          key={skill}
+          src={`/images/skills/${skill}.svg`}
+          width={75}
+          height={50}
+          alt={skill}
+        />
+      </div>
+    ))
+  }
+</div>
+
+## Main Soft Skills
+
+<div>
+  <ul>
+    <li>
+      Research⚡️
+    </li>
+    <li>
+      Research⚡️
+    </li>
+    <li>
+      Research⚡️
+    </li>
+    <li>
+      Research⚡️
+    </li>
+    <li>
+      Research⚡️
+    </li>
+  </ul>
+  <ul>
+    <li>
+      Research⚡️
+    </li>
+    <li>
+      Research⚡️
+    </li>
+    <li>
+      Research⚡️
+    </li>
+    <li>
+      Research⚡️
+    </li>
+    <li>
+      Research⚡️
+    </li>
+  </ul>
 </div>
