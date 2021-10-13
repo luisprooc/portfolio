@@ -12,10 +12,9 @@ import skills from '../utils/skills.json'
 <div className='hard-skills'>
   {
     skills.hardSkills.map(skill => (
-      <div className='hard-skills-container'>
+      <div className='hard-skills-container' key={skill}>
         <Image
           className='hard-skills-img'
-          key={skill}
           src={`/images/skills/${skill}.svg`}
           width={75}
           height={50}
@@ -28,39 +27,27 @@ import skills from '../utils/skills.json'
 
 ## Main Soft Skills
 
-<div>
-  <ul>
-    <li>
-      Research⚡️
-    </li>
-    <li>
-      Research⚡️
-    </li>
-    <li>
-      Research⚡️
-    </li>
-    <li>
-      Research⚡️
-    </li>
-    <li>
-      Research⚡️
-    </li>
-  </ul>
-  <ul>
-    <li>
-      Research⚡️
-    </li>
-    <li>
-      Research⚡️
-    </li>
-    <li>
-      Research⚡️
-    </li>
-    <li>
-      Research⚡️
-    </li>
-    <li>
-      Research⚡️
-    </li>
-  </ul>
+<div className='soft-skills'>
+  <div className='soft-skills-card'>
+    <ul>
+      {
+        skills.softSkills.slice(0,5).map(skill => (
+          <li key={skill}>
+            {skill}
+          </li>   
+      ))
+      }
+    </ul>
+  </div>
+  <div className='soft-skills-card'>
+    <ul>
+      {
+        skills.softSkills.slice(5,10).map(skill => (
+          <li key={skill}>
+            {skill}
+          </li>   
+      ))
+      }
+    </ul>
+  </div>
 </div>
