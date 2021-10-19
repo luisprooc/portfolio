@@ -1,0 +1,9 @@
+.education-item-left {
+  padding: 1.5rem;
+  border-bottom: 5px solid rgb(12, 11, 11);
+}
+
+.education-item-right {
+  padding: 1.5rem;
+  text-align: right;
+}

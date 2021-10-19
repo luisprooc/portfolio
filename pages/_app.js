@@ -5,6 +5,7 @@ import '../styles/main.css';
 import '../styles/home.css';
 
 import '../styles/skills.css';
+import '../styles/education.css';
 
 export default function Nextra({ Component, pageProps }) {
   return (
