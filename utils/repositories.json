@@ -1,0 +1,24 @@
+
+{
+  "projects": [
+    {
+      "name": "Pelt Testing",
+      "description": "A library testing for python, this package allows us to test algorithms and generate test data.",
+      "githubUrl": "https://github.com/luisprooc/pelt-testing",
+      "productionUrl": "https://pypi.org/project/pelt-testing/",
+      "languaje": "Python"
+    },
+    {
+      "name": "Data Structures Python",
+      "description": "My path of knowledge with data structures in Python.",
+      "githubUrl": "https://github.com/luisprooc/data-structures-python",
+      "languaje": "Python"
+    },
+    {
+      "name": "JS Algorithms",
+      "description": "A repository with algorithms resolved in javascript.",
+      "githubUrl": "https://github.com/luisprooc/js-algorithms",
+      "languaje": "JavaScript"
+    }
+  ]
+}

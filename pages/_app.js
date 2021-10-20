@@ -19,7 +19,7 @@ export default function Nextra({ Component, pageProps }) {
           crossOrigin="anonymous"
         />
       </Head>
-      <Component {...pageProps} />
+      <Component {...pageProps}/>
     </>
   )
 }
