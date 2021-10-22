@@ -1,0 +1,33 @@
+.project-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.project-col {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+}
+
+.project-card {
+  background-color: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  max-width: 20rem;
+}
+
+.project-link {
+ vertical-align: middle;
+}
+
+.project-link a{
+  margin-right: 0.5rem;
+}
+
+@media (min-width: 768px){
+  .project-col {
+    max-width: 40%;
+  }
+}

@@ -7,6 +7,8 @@ import '../styles/home.css';
 import '../styles/skills.css';
 import '../styles/education.css';
 
+import '../styles/project.css';
+
 export default function Nextra({ Component, pageProps }) {
   return (
     <>

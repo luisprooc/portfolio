@@ -3,3 +3,52 @@ type: page
 title: Projects
 date: 2021-03-18
 ---
+
+import Repositories from '../utils/repositories.json'
+import Link from 'next/link'
+import Image from 'next/image'
+
+# Some Projects
+
+<div className='project-row'>
+  {
+    Repositories.projects.map(item => (
+      <div className='project-col' key={item.name}>
+        <div className='project-card'>
+          <h3>
+            {item.name}
+          </h3>
+          <p>
+            {item.description}
+          </p>
+          <i>{item.languaje}</i>
+
+          <div className='project-link'>
+            <Link href={item.githubUrl} passHref>
+              <a target='_blank'>
+                <Image
+                  src='/images/github-icon.svg'
+                  width={30}
+                  height={50}
+                  alt={item.name}
+                />
+              </a>
+            </Link>
+            {item.productionUrl && (
+              <Link href={item.productionUrl} passHref>
+                <a target='_blank'>
+                  <Image
+                    src='/images/google-icon.svg'
+                    width={35}
+                    height={50}
+                    alt={item.name}
+                  />
+                </a>
+              </Link>
+            )}
+          </div>
+        </div>
+      </div>
+    ))
+  }
+</div>

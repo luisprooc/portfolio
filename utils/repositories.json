@@ -19,6 +19,25 @@
       "description": "A repository with algorithms resolved in javascript.",
       "githubUrl": "https://github.com/luisprooc/js-algorithms",
       "languaje": "JavaScript"
+    },
+    {
+      "name": "TechBook",
+      "description": "Beautiful and minimalist open source website where users can read books about tech and collaborate with the community.",
+      "githubUrl": "https://github.com/PuzzlerDev/tecno-book-next",
+      "productionUrl": "https://tecno-book-next.vercel.app/",
+      "languaje": "Nextjs"
+    },
+    {
+      "name": "Gallery API",
+      "description": "Gallery API CRUD where users can upload photos.",
+      "githubUrl": "https://github.com/luisprooc/nest-gallery-api",
+      "languaje": "Nestjs"
+    },
+    {
+      "name": "Path of React Knowledge",
+      "description": "My path of learning: API Context, Redux, Styled components, hooks and more.",
+      "githubUrl": "https://github.com/luisprooc/react-learning",
+      "languaje": "React"
     }
   ]
 }

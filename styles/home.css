@@ -3,6 +3,11 @@
   text-align: center;
 }
 
+.home-social-media img{
+  width: 40px;
+  height: 40px;
+}
+
 .home-social-media a{
   display: inline-block;
   vertical-align: middle;
